@@ -4,7 +4,7 @@ html {
 
 body {
     height: 100%;
-    
+    background-color: #ff3a3a;
 }
 a {
     text-decoration: none;
@@ -20,17 +20,42 @@ a {
 .here{
 background-color: black;
 color:white;
+  
 }
-.gallery{
-display:flex;
-justify-content:space-around;
+.thumbnail-image{
+/* display:flex;    */
+/*justify-content:space-between;*/
+    width:200px;
+    height:200px;
+    border:2px solid #4a67fb;
+}
+    
 
-}
+
 .navbar{
     display:flex;
     justify-content:space-around;
-}
+    font-family: 'Raleway', sans-serif;
+      border-bottom: 2px solid #FFD700;
+    color:blue;
+    
+} 
 .header{
      display:flex;
     justify-content:space-around;
+     font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+    border-bottom: 2px solid #FFD700;
+   
+}
+.leftPane{
+    border:3px solid #4a67fb;
+        font-family: 'Raleway', sans-serif;
+}
+.image{
+    display:flex;
+   justify-content:center;
+    width:450px;
+    height:450px;
 }
